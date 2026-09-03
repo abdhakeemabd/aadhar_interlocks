@@ -69,6 +69,7 @@ export default function Footer() {
                 style={{ border: 0 }} 
                 allowFullScreen="" 
                 loading="lazy" 
+                title="Google Maps Location"
                 referrerPolicy="no-referrer-when-downgrade">
               </iframe>
             </div>

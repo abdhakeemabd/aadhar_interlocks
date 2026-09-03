@@ -10,7 +10,7 @@ export default function HeroSection() {
     <section className="relative overflow-hidden bg-slate-900 text-white pt-24 md:pt-32 flex flex-col min-h-screen md:min-h-0 justify-center">
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-r from-slate-900 via-slate-900/90 to-transparent z-10" />
-        <Image src={productHero} alt="Hero Background" fill priority fetchPriority="high" unoptimized placeholder="blur" sizes="100vw" className="object-cover opacity-40" />
+        <Image src={productHero} alt="Hero Background" fill priority fetchPriority="high" placeholder="blur" sizes="100vw" quality={60} className="object-cover opacity-40" />
       </div>
       
       <div className="container relative z-10 mx-auto px-4 pb-16 md:pb-32 mt-12 md:mt-0">
