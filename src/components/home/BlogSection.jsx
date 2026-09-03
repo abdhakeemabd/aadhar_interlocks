@@ -5,9 +5,9 @@ import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import Link from "next/link";
 import Image from "next/image";
-import blog1 from "@/images/products/gallery_4.jpg";
-import blog2 from "@/images/products/gallery_5.jpg";
-import blog3 from "@/images/products/gallery_6.jpg";
+import blog1 from "@/images/products/gallery_4.webp";
+import blog2 from "@/images/products/gallery_5.webp";
+import blog3 from "@/images/products/gallery_6.webp";
 
 export default function BlogSection() {
   return (

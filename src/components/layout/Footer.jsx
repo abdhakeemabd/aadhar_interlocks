@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Phone, MessageCircle, MapPin, Clock } from "lucide-react";
 import Image from "next/image";
-import logo from "../../../public/logo.jpg";
+import logo from "../../../public/logo.webp";
 
 export default function Footer() {
   return (

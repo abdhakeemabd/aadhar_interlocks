@@ -33,7 +33,7 @@ export default function About() {
               </ul>
             </div>
             <div className="lg:w-1/2">
-              <div className="h-[400px] w-full rounded-2xl bg-[url('/paver_blocks_showcase_1788447321836.png')] bg-cover bg-center shadow-xl"></div>
+              <div className="h-[400px] w-full rounded-2xl bg-[url('/paver_blocks_showcase_1788447321836.webp')] bg-cover bg-center shadow-xl"></div>
             </div>
           </div>
           

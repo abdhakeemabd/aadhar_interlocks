@@ -2,7 +2,7 @@ import { MessageCircle, ArrowRight, CheckCircle2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import Image from "next/image";
-import productHero from "@/images/products/gallery_14.jpg";
+import productHero from "@/images/products/gallery_14.webp";
 import { getWhatsAppLink } from "@/lib/utils";
 
 export default function HeroSection() {

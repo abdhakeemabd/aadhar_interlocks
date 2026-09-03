@@ -5,10 +5,10 @@ import { Card, CardHeader, CardTitle, CardFooter } from "@/components/ui/card";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import Link from "next/link";
 import Image from "next/image";
-import feature1 from "@/images/products/gallery_15.jpg";
-import feature2 from "@/images/products/gallery_16.jpg";
-import feature3 from "@/images/products/gallery_17.jpg";
-import feature4 from "@/images/products/gallery_18.jpg";
+import feature1 from "@/images/products/gallery_15.webp";
+import feature2 from "@/images/products/gallery_16.webp";
+import feature3 from "@/images/products/gallery_17.webp";
+import feature4 from "@/images/products/gallery_18.webp";
 import { getWhatsAppLink } from "@/lib/utils";
 
 export default function FeaturedProducts() {

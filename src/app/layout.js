@@ -25,7 +25,7 @@ export const metadata = {
     siteName: "Aadhar Interlocks",
     images: [
       {
-        url: "/logo.jpg",
+        url: "/logo.webp",
         width: 800,
         height: 600,
         alt: "Aadhar Interlocks Logo",
@@ -38,7 +38,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Aadhar Interlocks | Premium Pavers",
     description: "Kerala's strongest interlocking bricks and paver blocks.",
-    images: ["/logo.jpg"],
+    images: ["/logo.webp"],
   },
   robots: {
     index: true,

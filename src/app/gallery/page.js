@@ -3,12 +3,12 @@
 import { useState, useRef, useEffect } from "react";
 import { Play, ZoomIn, X, ChevronLeft, ChevronRight, Volume2, VolumeX } from "lucide-react";
 import Image from "next/image";
-import gallery1 from "@/images/products/gellary-1.jpg";
-import gallery2 from "@/images/products/gallery_2.jpg";
-import gallery3 from "@/images/products/gallery_3.jpg";
-import gallery4 from "@/images/products/gallery_4.jpg";
-import gallery5 from "@/images/products/gallery_5.jpg";
-import gallery6 from "@/images/products/gallery_6.jpg";
+import gallery1 from "@/images/products/gellary-1.webp";
+import gallery2 from "@/images/products/gallery_2.webp";
+import gallery3 from "@/images/products/gallery_3.webp";
+import gallery4 from "@/images/products/gallery_4.webp";
+import gallery5 from "@/images/products/gallery_5.webp";
+import gallery6 from "@/images/products/gallery_6.webp";
 
 const photos = [
   { title: "Residential Courtyard", src: gallery1 },

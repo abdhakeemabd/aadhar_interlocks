@@ -19,9 +19,9 @@ export default function Blog() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
-              { title: "How to Choose the Right Paver Thickness for Your Driveway", date: "Sept 1, 2026", img: "bg-[url('/commercial_driveway_1788448127530.png')]", excerpt: "Discover why 80mm blocks are essential for commercial driveways and when 60mm blocks are sufficient for residential patios." },
-              { title: "Top 5 Courtyard Design Trends in Kerala", date: "Aug 15, 2026", img: "bg-[url('/kerala_courtyard_1788448111679.png')]", excerpt: "From dual-tone terracotta designs to modern slate grey zig-zags, see what homeowners in Malappuram are choosing this year." },
-              { title: "The Science of Hydraulic Compression in Interlocks", date: "Aug 2, 2026", img: "bg-[url('/paver_blocks_showcase_1788447321836.png')]", excerpt: "Learn why our zero-air-pocket manufacturing process creates pavers that outlast the heavy Kerala monsoons." }
+              { title: "How to Choose the Right Paver Thickness for Your Driveway", date: "Sept 1, 2026", img: "bg-[url('/commercial_driveway_1788448127530.webp')]", excerpt: "Discover why 80mm blocks are essential for commercial driveways and when 60mm blocks are sufficient for residential patios." },
+              { title: "Top 5 Courtyard Design Trends in Kerala", date: "Aug 15, 2026", img: "bg-[url('/kerala_courtyard_1788448111679.webp')]", excerpt: "From dual-tone terracotta designs to modern slate grey zig-zags, see what homeowners in Malappuram are choosing this year." },
+              { title: "The Science of Hydraulic Compression in Interlocks", date: "Aug 2, 2026", img: "bg-[url('/paver_blocks_showcase_1788447321836.webp')]", excerpt: "Learn why our zero-air-pocket manufacturing process creates pavers that outlast the heavy Kerala monsoons." }
             ].map((post, idx) => (
               <Card key={idx} className="overflow-hidden border-slate-200 shadow-sm hover:shadow-lg transition-all duration-300">
                 <div className={`h-56 ${post.img} bg-cover bg-center`}></div>

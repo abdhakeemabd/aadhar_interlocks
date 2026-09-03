@@ -4,10 +4,10 @@ import { Button } from "@/components/ui/button";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import Link from "next/link";
 import Image from "next/image";
-import gallery1 from "@/images/products/gallery_19.jpg";
-import gallery2 from "@/images/products/gallery_20.jpg";
-import gallery3 from "@/images/products/gallery_2.jpg";
-import gallery4 from "@/images/products/gallery_3.jpg";
+import gallery1 from "@/images/products/gallery_19.webp";
+import gallery2 from "@/images/products/gallery_20.webp";
+import gallery3 from "@/images/products/gallery_2.webp";
+import gallery4 from "@/images/products/gallery_3.webp";
 
 export default function GalleryShowcase() {
   return (

@@ -8,13 +8,13 @@ import { Button } from "@/components/ui/button";
 import { MessageCircle, Sparkles } from "lucide-react";
 import Image from "next/image";
 
-import productHero from "@/images/products/gallery_7.jpg";
-import product1 from "@/images/products/gallery_8.jpg";
-import product2 from "@/images/products/gallery_9.jpg";
-import product3 from "@/images/products/gallery_10.jpg";
-import product4 from "@/images/products/gallery_11.jpg";
-import product5 from "@/images/products/gallery_12.jpg";
-import product6 from "@/images/products/gallery_13.jpg";
+import productHero from "@/images/products/gallery_7.webp";
+import product1 from "@/images/products/gallery_8.webp";
+import product2 from "@/images/products/gallery_9.webp";
+import product3 from "@/images/products/gallery_10.webp";
+import product4 from "@/images/products/gallery_11.webp";
+import product5 from "@/images/products/gallery_12.webp";
+import product6 from "@/images/products/gallery_13.webp";
 
 export default function Products() {
   const getWhatsAppLink = (message) => `https://wa.me/919000000000?text=${encodeURIComponent(message)}`;

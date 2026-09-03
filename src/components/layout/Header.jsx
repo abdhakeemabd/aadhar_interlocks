@@ -4,7 +4,7 @@ import { PhoneCall, MessageCircle, Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import Image from "next/image";
-import logo from "../../../public/logo.jpg";
+import logo from "../../../public/logo.webp";
 
 export default function Header() {
   return (
