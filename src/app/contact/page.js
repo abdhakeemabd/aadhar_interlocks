@@ -9,12 +9,12 @@ import { Button } from "@/components/ui/button";
 export default function Contact() {
   return (
     <div className="flex flex-col bg-slate-50 min-h-screen">
-      <section className="bg-slate-900 text-white py-20 text-center">
+      <section className="bg-slate-900 text-white py-12 md:py-20 text-center">
         <h1 className="text-5xl font-poppins font-bold mb-4">Contact Us</h1>
         <p className="text-slate-300 text-lg max-w-2xl mx-auto">We are here to help you plan your next paving project.</p>
       </section>
 
-      <section className="py-20">
+      <section className="py-12 md:py-20">
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row gap-16">
             

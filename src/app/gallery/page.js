@@ -162,12 +162,12 @@ export default function Gallery() {
 
   return (
     <div className="flex flex-col bg-slate-50 min-h-screen">
-      <section className="bg-slate-900 text-white py-20 text-center">
+      <section className="bg-slate-900 text-white py-12 md:py-20 text-center">
         <h1 className="text-5xl font-poppins font-bold mb-4">Project Gallery & Installations</h1>
         <p className="text-slate-300 text-lg max-w-2xl mx-auto">See how our premium interlocks transform ordinary spaces into elegant, highly durable landscapes.</p>
       </section>
 
-      <section className="py-20">
+      <section className="py-12 md:py-20">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-poppins font-bold text-slate-900 mb-8 border-b pb-4">Instagram Video Reels</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-20">

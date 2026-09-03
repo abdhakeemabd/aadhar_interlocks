@@ -7,13 +7,13 @@ import { getWhatsAppLink } from "@/lib/utils";
 
 export default function HeroSection() {
   return (
-    <section className="relative overflow-hidden bg-slate-900 text-white pb-16 pt-24 md:pt-32 md:pb-32">
+    <section className="relative overflow-hidden bg-slate-900 text-white pt-24 md:pt-32 flex flex-col min-h-screen md:min-h-0 justify-center">
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-r from-slate-900 via-slate-900/90 to-transparent z-10" />
         <Image src={productHero} alt="Hero Background" fill priority placeholder="blur" sizes="100vw" className="object-cover opacity-40" />
       </div>
       
-      <div className="container relative z-10 mx-auto px-4">
+      <div className="container relative z-10 mx-auto px-4 pb-16 md:pb-32 mt-12 md:mt-0">
         <div className="max-w-3xl">
           <h1 className="font-poppins text-5xl md:text-7xl font-extrabold leading-tight mb-6 tracking-tight">
             Elevate Your Courtyard with Kerala's <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FFD100] to-orange-400">Strongest</span> Interlocks
@@ -40,8 +40,8 @@ export default function HeroSection() {
       </div>
       
       {/* Trust Badges Strip */}
-      <div className="absolute bottom-0 left-0 right-0 bg-slate-800/80 backdrop-blur-md border-t border-slate-700 py-4 z-10">
-        <div className="container mx-auto px-4 flex flex-wrap justify-between items-center gap-4 text-sm md:text-base font-semibold text-slate-200">
+      <div className="relative z-10 mt-auto bg-slate-800/80 backdrop-blur-md border-t border-slate-700 py-4 w-full">
+        <div className="container mx-auto px-4 flex flex-col md:flex-row md:flex-wrap justify-between items-start md:items-center gap-4 text-sm md:text-base font-semibold text-slate-200">
           <div className="flex items-center gap-2"><CheckCircle2 className="w-5 h-5 text-[#FFD100]" /> M30-M50 Grade Strength</div>
           <div className="flex items-center gap-2"><CheckCircle2 className="w-5 h-5 text-[#FFD100]" /> Heavy Vehicle Load Tested</div>
           <div className="flex items-center gap-2"><CheckCircle2 className="w-5 h-5 text-[#FFD100]" /> Factory Direct Pricing</div>

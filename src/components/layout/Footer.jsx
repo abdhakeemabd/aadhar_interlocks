@@ -23,8 +23,8 @@ export default function Footer() {
               <a href="https://www.instagram.com/aadhar_interlocks/" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-[#FFD100] hover:text-black transition-colors text-white">
                 <span className="font-bold text-sm">IG</span>
               </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-[#FFD100] hover:text-black transition-colors text-white">
-                <span className="font-bold text-sm">FB</span>
+              <a href="https://youtube.com/@aadharinterlocks5333?feature=shared" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-[#FFD100] hover:text-black transition-colors text-white">
+                <span className="font-bold text-sm">YT</span>
               </a>
             </div>
           </div>
@@ -38,7 +38,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-[#FFD100] shrink-0" />
-                <a href="tel:+910000000000" className="text-slate-400 hover:text-[#FFD100] transition-colors">+91 00000 00000</a>
+                <a href="tel:+918594077711" className="text-slate-400 hover:text-[#FFD100] transition-colors">+91 85940 77711</a>
               </li>
               <li className="flex items-start gap-3">
                 <Clock className="w-5 h-5 text-[#FFD100] shrink-0 mt-0.5" />

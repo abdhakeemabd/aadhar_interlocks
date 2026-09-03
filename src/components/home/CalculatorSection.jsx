@@ -67,7 +67,7 @@ export default function CalculatorSection() {
                 {area && (
                   <div className="bg-slate-50 p-6 rounded-lg border border-slate-100 text-center animate-in fade-in zoom-in duration-300">
                     <p className="text-sm text-slate-500 font-semibold mb-1 uppercase tracking-wider">Estimated Blocks Needed</p>
-                    <p className="text-5xl font-poppins font-bold text-slate-900">{calculateEstimate().toLocaleString()}</p>
+                    <p className="text-4xl md:text-5xl font-poppins font-bold text-slate-900">{calculateEstimate().toLocaleString()}</p>
                   </div>
                 )}
               </CardContent>
