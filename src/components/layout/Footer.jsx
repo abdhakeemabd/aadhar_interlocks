@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { Phone, MessageCircle, MapPin, Clock } from "lucide-react";
+import Image from "next/image";
+import logo from "../../../public/logo.jpg";
 
 export default function Footer() {
   return (
@@ -8,7 +10,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           <div className="lg:col-span-1">
             <Link href="/" className="flex items-center gap-3 mb-6">
-              <img src="/logo.jpg" alt="Aadhar Interlocks Logo" className="w-12 h-12 rounded-md object-contain bg-white" />
+              <Image src={logo} alt="Aadhar Interlocks Logo" className="w-12 h-12 object-contain bg-white" />
               <div className="flex flex-col">
                 <span className="font-poppins font-black text-2xl text-white tracking-tight leading-none">AADHAR</span>
                 <span className="font-poppins text-xs font-bold text-[#FFD100] uppercase tracking-widest leading-none mt-1">Interlock</span>

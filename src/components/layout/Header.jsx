@@ -4,13 +4,14 @@ import { PhoneCall, MessageCircle, Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import Image from "next/image";
+import logo from "../../../public/logo.jpg";
 
 export default function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60 shadow-sm">
       <div className="container mx-auto px-4 h-20 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-3">
-          <img src="/logo.jpg" alt="Aadhar Interlocks Logo" className="w-12 h-12 rounded-md object-contain" />
+          <Image src={logo} alt="Aadhar Interlocks Logo" className="w-12 h-12 object-contain" />
           <div className="flex flex-col">
             <span className="font-poppins font-black text-2xl tracking-tight text-slate-900 leading-none">AADHAR</span>
             <span className="font-poppins text-xs font-bold text-slate-500 uppercase tracking-widest leading-none mt-1">Interlock</span>
@@ -36,10 +37,8 @@ export default function Header() {
         </div>
 
         <Sheet>
-          <SheetTrigger asChild>
-            <Button variant="ghost" size="icon" className="md:hidden">
-              <Menu className="w-6 h-6" />
-            </Button>
+          <SheetTrigger render={<Button variant="ghost" size="icon" className="md:hidden" />}>
+            <Menu className="w-6 h-6" />
           </SheetTrigger>
           <SheetContent>
             <div className="flex flex-col gap-6 mt-8">
