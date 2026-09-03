@@ -20,7 +20,7 @@ export default function FeaturedProducts() {
             <h2 className="font-poppins text-4xl font-bold text-slate-900 mb-4">Premium Paving Solutions</h2>
             <p className="text-lg text-slate-600">Engineered for durability and designed for elegance.</p>
           </div>
-          <Button variant="link" render={<Link href="/products" />} className="text-[#FFD100] font-semibold hidden md:flex items-center gap-1">
+          <Button nativeButton={false} variant="link" render={<Link href="/products" />} className="text-[#FFD100] font-semibold hidden md:flex items-center gap-1">
             View All Products <ArrowRight className="w-4 h-4" />
           </Button>
         </div>
@@ -47,6 +47,7 @@ export default function FeaturedProducts() {
                   </CardHeader>
                   <CardFooter>
                     <Button 
+                      nativeButton={false}
                       variant="outline" 
                       render={<a href={getWhatsAppLink(`Hi, I would like to inquire about the ${product.name} pavers.`)} target="_blank" rel="noreferrer" />}
                       className="w-full border-[#047857] text-[#047857] hover:bg-[#047857] hover:text-white"

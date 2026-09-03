@@ -22,7 +22,7 @@ export default function HeroSection() {
             Aadhar Interlocks manufactures high-quality interlocking bricks and paver blocks for residential & commercial spaces. Join over 60,000+ satisfied customers across Malappuram and beyond.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button size="lg" render={<Link href="/products" />} className="bg-white text-slate-900 hover:bg-slate-100 font-bold h-14 px-8 text-lg rounded-full w-full">
+            <Button nativeButton={false} size="lg" render={<Link href="/products" />} className="bg-white text-slate-900 hover:bg-slate-100 font-bold h-14 px-8 text-lg rounded-full w-full">
               Explore Collections <ArrowRight className="ml-2 w-5 h-5" />
             </Button>
             <Button 

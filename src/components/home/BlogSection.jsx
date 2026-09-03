@@ -18,7 +18,7 @@ export default function BlogSection() {
             <h2 className="font-poppins text-4xl font-bold text-slate-900 mb-4">Latest Insights & Tips</h2>
             <p className="text-lg text-slate-600">Expert advice on courtyard design and paver maintenance.</p>
           </div>
-          <Button variant="link" render={<Link href="/blog" />} className="text-[#FFD100] font-semibold hidden md:flex items-center gap-1">
+          <Button nativeButton={false} variant="link" render={<Link href="/blog" />} className="text-[#FFD100] font-semibold hidden md:flex items-center gap-1">
             Read More Articles <ArrowRight className="w-4 h-4" />
           </Button>
         </div>

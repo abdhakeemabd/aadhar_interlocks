@@ -18,7 +18,7 @@ export default function GalleryShowcase() {
             <h2 className="font-poppins text-4xl font-bold text-slate-900 mb-4">Project Gallery</h2>
             <p className="text-lg text-slate-600">See our interlocks in action across beautiful Kerala landscapes.</p>
           </div>
-          <Button variant="link" render={<Link href="/gallery" />} className="text-[#FFD100] font-semibold hidden md:flex items-center gap-1">
+          <Button nativeButton={false} variant="link" render={<Link href="/gallery" />} className="text-[#FFD100] font-semibold hidden md:flex items-center gap-1">
             View Full Gallery <ArrowRight className="w-4 h-4" />
           </Button>
         </div>
