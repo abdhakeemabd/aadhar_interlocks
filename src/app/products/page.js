@@ -34,9 +34,10 @@ export default function Products() {
                 <p className="text-slate-600 mb-6 text-lg">
                   Elevate your driveway with our latest addition. These 60mm and 80mm dual-tone pavers offer a natural stone look with the M50 grade strength of high-density concrete. Perfect for luxury homes and high-traffic commercial spaces.
                 </p>
-                <Button className="bg-[#C2410C] hover:bg-[#9a330a] text-white h-12 px-8 text-lg rounded-full shadow-lg"
-                  onClick={() => window.open(getWhatsAppLink("Hi, I want details on the New Dual-Tone Textured Pavers."), "_blank")}>
-                  <MessageCircle className="mr-2 w-5 h-5" /> Inquire About New Arrival
+                <Button asChild className="bg-[#FFD100] hover:bg-[#E6BC00] text-black font-bold h-12 px-8 text-lg rounded-full shadow-lg">
+                  <a href={getWhatsAppLink("Hi, I want details on the New Dual-Tone Textured Pavers.")} target="_blank" rel="noreferrer">
+                    <MessageCircle className="mr-2 w-5 h-5" /> Inquire About New Arrival
+                  </a>
                 </Button>
               </div>
             </div>
@@ -73,9 +74,10 @@ export default function Products() {
                   </div>
                 </CardContent>
                 <CardFooter>
-                  <Button variant="outline" className="w-full border-[#059669] text-[#059669] hover:bg-[#059669] hover:text-white"
-                    onClick={() => window.open(getWhatsAppLink(`Hi, I would like to inquire about the ${product.name} pavers.`), "_blank")}>
-                    <MessageCircle className="w-4 h-4 mr-2" /> Inquire
+                  <Button asChild variant="outline" className="w-full border-[#059669] text-[#059669] hover:bg-[#059669] hover:text-white">
+                    <a href={getWhatsAppLink(`Hi, I would like to inquire about the ${product.name} pavers.`)} target="_blank" rel="noreferrer">
+                      <MessageCircle className="w-4 h-4 mr-2" /> Inquire
+                    </a>
                   </Button>
                 </CardFooter>
               </Card>
