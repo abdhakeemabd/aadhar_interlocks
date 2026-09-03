@@ -54,7 +54,7 @@ export default function Header() {
         </div>
 
         <Sheet open={isOpen} onOpenChange={setIsOpen}>
-          <SheetTrigger render={<Button variant="ghost" size="icon" className="md:hidden" />}>
+          <SheetTrigger render={<Button variant="ghost" size="icon" className="md:hidden" aria-label="Open menu" />}>
             <Menu className="w-6 h-6" />
           </SheetTrigger>
           <SheetContent>

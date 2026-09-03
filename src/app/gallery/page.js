@@ -185,7 +185,7 @@ export default function Gallery() {
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <div className="absolute bottom-6 left-6 right-6 translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300 flex justify-between items-center text-white">
                   <div>
-                    <h4 className="font-bold text-lg font-poppins">{item.title}</h4>
+                    <h3 className="font-bold text-lg font-poppins">{item.title}</h3>
                     <p className="text-sm text-slate-300">Malappuram, Kerala</p>
                   </div>
                   <div className="w-10 h-10 rounded-full bg-white/20 backdrop-blur flex items-center justify-center">

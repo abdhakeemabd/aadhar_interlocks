@@ -18,11 +18,9 @@ export default function BlogSection() {
             <h2 className="font-poppins text-4xl font-bold text-slate-900 mb-4">Latest Insights & Tips</h2>
             <p className="text-lg text-slate-600">Expert advice on courtyard design and paver maintenance.</p>
           </div>
-          <Link href="/blog">
-            <Button variant="link" className="text-[#FFD100] font-semibold hidden md:flex items-center gap-1">
-              Read More Articles <ArrowRight className="w-4 h-4" />
-            </Button>
-          </Link>
+          <Button variant="link" render={<Link href="/blog" />} className="text-[#FFD100] font-semibold hidden md:flex items-center gap-1">
+            Read More Articles <ArrowRight className="w-4 h-4" />
+          </Button>
         </div>
 
         <Carousel opts={{ align: "start", loop: true }} className="w-full">
@@ -45,7 +43,7 @@ export default function BlogSection() {
                   </CardHeader>
                   <CardContent>
                     <p className="text-slate-600 mb-4 line-clamp-2">{post.excerpt}</p>
-                    <Link href="/blog" className="text-[#FFD100] font-semibold flex items-center gap-1 hover:underline">
+                    <Link href="/blog" aria-label={`Read more about ${post.title}`} className="text-slate-900 font-bold flex items-center gap-1 hover:text-slate-700 underline decoration-[#FFD100] decoration-2 underline-offset-4 transition-colors">
                       Read More <ArrowRight className="w-4 h-4" />
                     </Link>
                   </CardContent>

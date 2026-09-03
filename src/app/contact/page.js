@@ -30,7 +30,7 @@ export default function Contact() {
                     <MapPin className="text-[#C2410C] w-6 h-6" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-slate-900">Our Location</h4>
+                    <h3 className="font-bold text-slate-900">Our Location</h3>
                     <p className="text-slate-600 mt-1">Areacode - Manjeri Road,<br/>Malappuram District, Kerala 673639</p>
                   </div>
                 </div>
@@ -40,7 +40,7 @@ export default function Contact() {
                     <Phone className="text-[#C2410C] w-6 h-6" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-slate-900">Phone</h4>
+                    <h3 className="font-bold text-slate-900">Phone</h3>
                     <p className="text-slate-600 mt-1">+91 00000 00000</p>
                   </div>
                 </div>
@@ -50,7 +50,7 @@ export default function Contact() {
                     <Clock className="text-[#C2410C] w-6 h-6" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-slate-900">Working Hours</h4>
+                    <h3 className="font-bold text-slate-900">Working Hours</h3>
                     <p className="text-slate-600 mt-1">Mon - Sat: 9:00 AM - 9:00 PM<br/>Sunday: Closed</p>
                   </div>
                 </div>
@@ -106,6 +106,7 @@ export default function Contact() {
           allowFullScreen="" 
           loading="lazy" 
           referrerPolicy="no-referrer-when-downgrade"
+          title="Google Maps Location"
           className="absolute inset-0"
         ></iframe>
       </section>

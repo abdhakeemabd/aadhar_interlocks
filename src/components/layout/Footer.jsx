@@ -16,7 +16,7 @@ export default function Footer() {
                 <span className="font-poppins text-xs font-bold text-[#FFD100] uppercase tracking-widest leading-none mt-1">Interlock</span>
               </div>
             </Link>
-            <p className="text-slate-400 mb-6 leading-relaxed text-sm">
+            <p className="text-slate-300 mb-6 leading-relaxed text-sm">
               Premier manufacturer of concrete pavers, interlocking stones, and outdoor tiles in Malappuram, Kerala.
             </p>
             <div className="flex space-x-4">
@@ -30,37 +30,37 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="text-white font-semibold text-lg mb-6">Contact Us</h4>
+            <h3 className="text-white font-semibold text-lg mb-6">Contact Us</h3>
             <ul className="space-y-4 text-sm">
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-[#FFD100] shrink-0 mt-0.5" />
-                <span className="text-slate-400">Areacode - Manjeri Road,<br/>Malappuram District, Kerala</span>
+                <span className="text-slate-300">Areacode - Manjeri Road,<br/>Malappuram District, Kerala</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-[#FFD100] shrink-0" />
-                <a href="tel:+918594077711" className="text-slate-400 hover:text-[#FFD100] transition-colors">+91 85940 77711</a>
+                <a href="tel:+918594077711" className="text-slate-300 hover:text-[#FFD100] transition-colors">+91 85940 77711</a>
               </li>
               <li className="flex items-start gap-3">
                 <Clock className="w-5 h-5 text-[#FFD100] shrink-0 mt-0.5" />
-                <span className="text-slate-400">Mon - Sat: 9:00 AM - 9:00 PM<br/>Sun: Closed</span>
+                <span className="text-slate-300">Mon - Sat: 9:00 AM - 9:00 PM<br/>Sun: Closed</span>
               </li>
             </ul>
           </div>
 
           <div>
-            <h4 className="text-white font-semibold text-lg mb-6">Quick Links</h4>
+            <h3 className="text-white font-semibold text-lg mb-6">Quick Links</h3>
             <ul className="space-y-3 text-sm">
-              <li><Link href="/" className="text-slate-400 hover:text-[#FFD100] hover:underline transition-colors">Home</Link></li>
-              <li><Link href="/about" className="text-slate-400 hover:text-[#FFD100] hover:underline transition-colors">About Us</Link></li>
-              <li><Link href="/products" className="text-slate-400 hover:text-[#FFD100] hover:underline transition-colors">Our Products</Link></li>
-              <li><Link href="/gallery" className="text-slate-400 hover:text-[#FFD100] hover:underline transition-colors">Project Gallery</Link></li>
-              <li><Link href="/blog" className="text-slate-400 hover:text-[#FFD100] hover:underline transition-colors">Blog</Link></li>
-              <li><Link href="/contact" className="text-slate-400 hover:text-[#FFD100] hover:underline transition-colors">Contact</Link></li>
+              <li><Link href="/" className="text-slate-300 hover:text-[#FFD100] hover:underline transition-colors">Home</Link></li>
+              <li><Link href="/about" className="text-slate-300 hover:text-[#FFD100] hover:underline transition-colors">About Us</Link></li>
+              <li><Link href="/products" className="text-slate-300 hover:text-[#FFD100] hover:underline transition-colors">Our Products</Link></li>
+              <li><Link href="/gallery" className="text-slate-300 hover:text-[#FFD100] hover:underline transition-colors">Project Gallery</Link></li>
+              <li><Link href="/blog" className="text-slate-300 hover:text-[#FFD100] hover:underline transition-colors">Blog</Link></li>
+              <li><Link href="/contact" className="text-slate-300 hover:text-[#FFD100] hover:underline transition-colors">Contact</Link></li>
             </ul>
           </div>
 
           <div>
-            <h4 className="text-white font-semibold text-lg mb-6">Location</h4>
+            <h3 className="text-white font-semibold text-lg mb-6">Location</h3>
             <div className="w-full h-40 bg-slate-800 rounded-lg overflow-hidden border border-slate-700 flex items-center justify-center">
               <iframe 
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3914.5422894563875!2d76.04289841480415!3d11.221151691993437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba645d94711dbf5%3A0xb35384f936eebc82!2sAreacode%2C%20Kerala!5e0!3m2!1sen!2sin!4v1709214431234!5m2!1sen!2sin" 
@@ -83,9 +83,10 @@ export default function Footer() {
 
       {/* Floating WhatsApp Widget */}
       <a 
-        href={`https://wa.me/919000000000?text=${encodeURIComponent("Hi Aadhar Interlocks, I would like to know more about your products.")}`} 
-        target="_blank" 
+        href="https://wa.me/918594077711?text=Hi%20Aadhar%20Interlocks%2C%20I%20would%20like%20to%20inquire%20about%20your%20products."
+        target="_blank"
         rel="noreferrer"
+        aria-label="Chat with us on WhatsApp"
         className="fixed bottom-6 right-6 w-14 h-14 bg-[#25D366] text-white rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-transform duration-300 z-50 group"
       >
         <span className="absolute w-full h-full rounded-full bg-[#25D366] opacity-50 animate-ping"></span>

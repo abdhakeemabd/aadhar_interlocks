@@ -22,7 +22,7 @@ export default function TestimonialsSection() {
                 </div>
                 <p className="italic text-slate-700 mb-6">"{test.text}"</p>
                 <div>
-                  <h4 className="font-bold font-poppins text-slate-900">{test.name}</h4>
+                  <h3 className="font-bold font-poppins text-slate-900">{test.name}</h3>
                   <p className="text-sm text-slate-500">{test.title}</p>
                 </div>
               </CardContent>

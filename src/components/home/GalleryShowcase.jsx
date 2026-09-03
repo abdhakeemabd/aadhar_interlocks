@@ -18,11 +18,9 @@ export default function GalleryShowcase() {
             <h2 className="font-poppins text-4xl font-bold text-slate-900 mb-4">Project Gallery</h2>
             <p className="text-lg text-slate-600">See our interlocks in action across beautiful Kerala landscapes.</p>
           </div>
-          <Link href="/gallery">
-            <Button variant="link" className="text-[#FFD100] font-semibold hidden md:flex items-center gap-1">
-              View Full Gallery <ArrowRight className="w-4 h-4" />
-            </Button>
-          </Link>
+          <Button variant="link" render={<Link href="/gallery" />} className="text-[#FFD100] font-semibold hidden md:flex items-center gap-1">
+            View Full Gallery <ArrowRight className="w-4 h-4" />
+          </Button>
         </div>
 
         <Carousel opts={{ align: "start", loop: true }} className="w-full">
@@ -40,7 +38,7 @@ export default function GalleryShowcase() {
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10"></div>
                   <div className="absolute bottom-6 left-6 right-6 translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300 flex justify-between items-center text-white z-20">
                     <div>
-                      <h4 className="font-bold text-lg font-poppins">{item.title}</h4>
+                      <h3 className="font-bold text-lg font-poppins">{item.title}</h3>
                       <p className="text-sm text-slate-300">Malappuram, Kerala</p>
                     </div>
                     <ZoomIn className="w-6 h-6 text-white" />

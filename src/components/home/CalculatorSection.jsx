@@ -31,7 +31,7 @@ export default function CalculatorSection() {
                   <span className="font-bold text-[#FFD100]">1</span>
                 </div>
                 <div>
-                  <h4 className="text-xl font-semibold mb-2">Measure your Area</h4>
+                  <h3 className="text-xl font-semibold mb-2">Measure your Area</h3>
                   <p className="text-slate-400">Enter your total area in Square Feet or Cents.</p>
                 </div>
               </div>
