@@ -15,6 +15,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
+  metadataBase: new URL("https://aadharinterlocks.com"),
   title: "Aadhar Interlocks | Premium Interlocking Pavers in Kerala",
   description: "Manufacturer of high-density concrete interlocking pavers, drive-way blocks, and designer patio tiles in Areacode, Malappuram, Kerala.",
   keywords: "Interlock tiles Malappuram, Aadhar Interlock Areacode, Best interlocking bricks Kerala, Paving Blocks, Concrete Tiles",
